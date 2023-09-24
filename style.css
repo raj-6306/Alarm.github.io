@@ -1,0 +1,39 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+body{
+    font-family:Cursiv;
+    background-image: url('clock.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#clock{
+    font-size:6em;
+    color:rgb(153, 162, 159);
+    text-align: center;
+    /* margin-top: 50px; */
+    font-family: 'Courier New', Courier, monospace;
+    /* background: rgb(38, 146, 14); */
+}
+input[type="time"]{
+    font-size: 2em;
+    width:150px;
+    height: 50px;
+}
+button{
+    font-size: 3em;
+    margin-left:10px;
+    cursor: pointer;
+    background-color: cornsilk;
+    color:black;
+}
+h1{
+    font-size: 5em;
+    color: rgb(149, 178, 201);
+}
+
+#status_msg{
+    font-size: 2em;
+    color:whitesmoke;
+}
